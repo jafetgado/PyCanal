@@ -42,8 +42,6 @@ class Canal():
     Example
     ----------
     from pycanal import Canal
-    
-    ﻿from pycanal import Canal
 
 	# Create an instance of the Canal class
 	canal = Canal(fastafile='alignment.fasta', #MSA of homologous sequences
