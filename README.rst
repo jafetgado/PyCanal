@@ -40,8 +40,12 @@ An example showing how to compute conservation scores with PyCanal for 1,748 seq
     consensus_sequence = canal.getConsensusSequence(savefasta='consensus_sequence.fasta')
 
 
-Amino acid distribution at position 77
 .. image:: https://github.com/jafetgado/pycanal/blob/master/example/position77.png
+
+
+Amino acid distribution at position 77
+
+
 
 
 Citation
