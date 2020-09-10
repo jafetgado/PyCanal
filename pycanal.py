@@ -43,11 +43,24 @@ class Canal():
     ----------
     from pycanal import Canal
     
-    # Initialize the an instance of the Canal class. Use the third sequence in the file
-    # as reference and label the residues from the first as position 5, 6, 7,...
-    canal = Canal('sequences.fasta', ref=3, startcount=5)   
-    
-    blah blah blah
+    ﻿from pycanal import Canal
+
+	# Create an instance of the Canal class
+	canal = Canal(fastafile='alignment.fasta', #MSA of homologous sequences
+				  ref=0, #Position of reference sequence in MSA, use first sequence
+				  startcount=-16, #Position label of first residue in reference sequence
+				  verbose=True # Print out progress
+				  )
+
+	# Compute conservation scores of each site in reference sequence with relative entropy method
+	cons_scores = canal.analysis(include=None, method='relative')
+
+	# Plot the distribution of amino acids in at position 77 and save image as position77.png
+	canal.plotSiteDistribution(site=77, saveplot='position77')
+
+	# Determine consensus sequence from the alignment
+	consensus_sequence = canal.getConsensusSequence(savefasta='consensus_sequence.fasta')
+	
     '''
     
     
