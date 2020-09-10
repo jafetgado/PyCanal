@@ -17,7 +17,7 @@ Download from GitHub and install:
 
 Examples
 ----------
-An example showing how to compute conservation scores with pycanal for 1,748 sequences of family 7 glycoside hydrolases.
+An example showing how to compute conservation scores with PyCanal for 1,748 sequences of family 7 glycoside hydrolases.
 
 .. code:: python
 
@@ -41,12 +41,12 @@ An example showing how to compute conservation scores with pycanal for 1,748 seq
 
 
 Amino acid distribution at position 77
-.. image:: https://github.com/jafetgado/pycanal/example/position77.png
+.. image:: https://github.com/jafetgado/pycanal/blob/master/example/position77.png
 
 
 Citation
 --------------
-If you find pycanal useful, please cite:
+If you find PyCanal useful, please cite:
 
     Gado, J.E. (2020). Data-driven computational study of enzymes for a bio-based circular economy.
 
