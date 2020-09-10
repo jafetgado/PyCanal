@@ -346,9 +346,9 @@ class Canal():
         this_site_dist = this_site_dist.sort_values(ascending=False)
         
         # Plotting parameters 
-        plt.rcParams['figure.figsize'] = [6,4]
-        axis_font = {'fontname':'Arial', 'size':'18'}
-        ticks_font = {'fontname':'Arial', 'size':'16'}
+        plt.rcParams['figure.figsize'] = [3,2]
+        axis_font = {'fontname':'Arial', 'size':'9'}
+        ticks_font = {'fontname':'Arial', 'size':'8'}
         xvalues = np.arange(this_site_dist.shape[0])
         
         # Color the amino acid in reference sequence red, and all others grey
