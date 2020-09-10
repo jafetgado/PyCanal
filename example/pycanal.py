@@ -324,7 +324,7 @@ class Canal():
         site : int
             The position in the reference sequence to be plotted
         saveplot : str or None (default=None)
-            If not None, save the plot to the saveplot.
+            If not None, save the plot with the name specified by saveplot.
         
         Examples
         -----------
@@ -368,7 +368,7 @@ class Canal():
         
         # Save plot
         if saveplot is not None:
-            plt.savefig(f'{saveplot}.png', format='png', dpi=600)
+            plt.savefig(f'{saveplot}.jpg', format='jpg', dpi=150)
         plt.show(); plt.close()
         
       

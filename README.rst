@@ -17,7 +17,7 @@ Download from GitHub and install:
 
 Examples
 ----------
-An example showing how to compute conservation scores with PyCanal for 1,748 sequences of family 7 glycoside hydrolases.
+An example showing how to compute conservation scores with PyCanal for 1,748 sequences of glycoside hydrolase family 7.
 
 .. code:: python
 
@@ -40,13 +40,13 @@ An example showing how to compute conservation scores with PyCanal for 1,748 seq
     consensus_sequence = canal.getConsensusSequence(savefasta='consensus_sequence.fasta')
 
 
-Amino acid distribution at position 77
+*Amino acid distribution at position 77*
 
-.. image:: https://github.com/jafetgado/pycanal/blob/master/example/position77.png
+.. image:: https://github.com/jafetgado/pycanal/blob/master/example/position77.jpg
 
-Relative entropy conservation scores
+*Relative entropy conservation scores*
 
-.. image:: https://github.com/jafetgado/pycanal/blob/master/example/position77.png
+.. image:: https://github.com/jafetgado/pycanal/blob/master/example/cons_scores.jpg
 
 
 
