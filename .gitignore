@@ -3,4 +3,5 @@ __pycache__
 .DS_Store
 example/__pycache__
 example/.DS_Store
+*.*~
 
