@@ -30,7 +30,7 @@ An example showing how to compute conservation scores with PyCanal for 1,748 seq
                   verbose=True # Print out progress
                   )
 
-    # Compute conservation scores for each site in reference sequence with relative entropy method
+    # Compute conservation scores of each site in reference sequence with relative entropy method
     cons_scores = canal.analysis(include=None, method='relative')
 
     # Plot the distribution of amino acids in at position 77 and save image as position77.png
