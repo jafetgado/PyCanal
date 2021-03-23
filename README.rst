@@ -62,5 +62,5 @@ Citation
 --------------
 If you find PyCanal useful, please cite:
 
-    Gado, J.E. (2020). Machine learning and bioinformatic insights into key enzymes for a bio-based circular economy (In preparation).
+    Gado, Japheth E., 2021, "Machine learning and bioinformatic insights into key enzymes for a bio-based circular economy". Theses and Dissertations: Chemical and Materials Engineering, 129. DOI: 10.13023/etd.2021.009.
 
