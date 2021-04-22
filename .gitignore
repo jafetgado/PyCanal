@@ -3,4 +3,6 @@ __pycache__
 .DS_Store
 example/__pycache__
 example/.DS_Store
+pycanal/__pycache__
+pycanal/.DS_Store
 
