@@ -24,7 +24,7 @@ An example showing how to compute conservation scores with PyCanal for 1,748 seq
     from pycanal import Canal
 
     # Create an instance of the Canal class
-    canal = Canal(fastafile='alignment.fasta', #Multiple sequence alignment (MSA) of homologous sequences
+    canal = Canal(fastafile='example/alignment.fasta', #Multiple sequence alignment (MSA) of homologous sequences
                   ref=0, #Position of reference sequence in MSA, use first sequence
                   startcount=-16, #Position label of first residue in reference sequence
                   verbose=True # Print out progress

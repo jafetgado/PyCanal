@@ -169,7 +169,7 @@ class Canal():
         for col in fasta_df.columns:
             counts = np.unique(fasta_df[col], return_counts=True)
             counts = pd.Series(counts[1], index=counts[0])
-            site_counts[col] = counts[np.array(self.aminoacid_letters)]
+            site_counts[col] = counts.reindex(np.array(self.aminoacid_letters))
         site_counts = site_counts.fillna(0)
         site_freqs = site_counts / site_counts.sum(axis=0)
         #self.site_frequencies = site_freqs
