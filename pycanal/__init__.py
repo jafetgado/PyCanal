@@ -5,4 +5,4 @@
 __version__ = 0.1
 
 
-from pycanal import *
+from .pycanal import *
