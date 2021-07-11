@@ -12,7 +12,7 @@ setuptools.setup(
 	long_description_content_type='text/x-rst',
 	long_description=readme,
 	url='https://github.com/jafetgado/pycanal',
-	keywords='bioinformatics conservation-analysis,
+	keywords='bioinformatics conservation-analysis',
 	packages=setuptools.find_packages(),
 	include_package_data=True,
 	license='MIT',
